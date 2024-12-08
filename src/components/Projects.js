@@ -23,7 +23,7 @@ function Projects({sendExpandedStatToParent}) {
         },
         {
             name: 'habits-app',
-            description: 'habits-app-71y.pages.dev is my personal habit tracker app using Vue, Nuxt, Pinia, and Firebase.',
+            description: 'habits-app-71y.pages.dev is my personal habit tracker app using Vue, TypeScript, Nuxt, Pinia, and Firebase.',
             link: 'https://github.com/ant-vu/habits-app',
             more: 'https://habits-app-71y.pages.dev'
         },
