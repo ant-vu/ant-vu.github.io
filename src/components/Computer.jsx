@@ -158,4 +158,4 @@ export const Computer = forwardRef((props, ref) => {
     )
 });
 
-useGLTF.preload(process.env.PUBLIC_URL + '/3d_models/computer.glb')
+useGLTF.preload(process.env.PUBLIC_URL + '/models/computer.glb')

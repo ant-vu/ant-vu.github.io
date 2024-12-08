@@ -20,10 +20,7 @@ function Projects({sendExpandedStatToParent}) {
             name: 'ant-vu.github.io',
             description: 'ant-vu.github.io is my latest iteration of a personal portfolio using React, JavaScript, and Tailwind CSS.',
             link: 'https://github.com/ant-vu/ant-vu.github.io'
-        }
-    ];
-
-    const more_projects = [
+        },
         {
             name: 'habits-app',
             description: 'habits-app-71y.pages.dev is my personal habit tracker app using Vue, Nuxt, Pinia, and Firebase.',
@@ -37,6 +34,8 @@ function Projects({sendExpandedStatToParent}) {
             more: 'https://ant-vu.github.io/color-link'
         }
     ];
+
+    const more_projects = [];
 
     const boldWord = (text) => {
         const words = text.split(' ');
@@ -164,20 +163,6 @@ function Projects({sendExpandedStatToParent}) {
                     </div>
                 </div>
             </div>
-            <p
-                className="text-right mt-2 font-DMMono cursor-pointer z-11"
-                onClick={handleMoreClick}
-            >
-                {expanded ? (
-                    <>
-                        close <strong>{"<<"}</strong>
-                    </>
-                ) : (
-                    <>
-                        Want more? <strong>{">>"}</strong>
-                    </>
-                )}
-            </p>
         </section>
     );
 }
