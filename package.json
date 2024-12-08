@@ -1,0 +1,63 @@
+{
+    "name": "av-portfolio",
+    "version": "0.1.0",
+    "homepage": "https://ant-vu.github.io",
+    "private": true,
+    "dependencies": {
+        "@react-three/drei": "^9.109.2",
+        "@react-three/fiber": "^8.16.8",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/three": "^0.167.1",
+        "framer-motion": "^11.3.21",
+        "leva": "^0.9.35",
+        "perlin": "^1.0.0",
+        "perlin-noise": "^0.0.1",
+        "react": "^18.3.1",
+        "react-confetti": "^6.1.0",
+        "react-confetti-explosion": "^2.1.2",
+        "react-dom": "^18.3.1",
+        "react-dom-confetti": "^0.2.0",
+        "react-router-dom": "^6.26.0",
+        "react-scripts": "5.0.1",
+        "simplex-noise": "^4.0.3",
+        "three": "^0.167.1",
+        "three-custom-shader-material": "^5.3.2",
+        "three-manga": "^1.1.0",
+        "three-stdlib": "^2.30.5",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "gh-pages": "^6.1.1",
+        "postcss": "^8.4.40",
+        "tailwindcss": "^3.4.7"
+    }
+}
