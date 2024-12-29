@@ -20,7 +20,6 @@ function Portfolio({ className }) {
   return (
     <main className={`${className} /* other classes */`}>
       <div className="portfolio">
-        
         <div className={`${transitionClasses} ${projectExpanded ? expandedClasses : `${collapsedClasses} ${spacingClasses}`}`}>
           <Header />
         </div>
@@ -32,9 +31,6 @@ function Portfolio({ className }) {
         </div>
         <div className={`${transitionClasses} ${projectExpanded ? expandedClasses : `${collapsedClasses} ${spacingClasses}`}`}>
           <Skills />
-        </div>
-        <div className={`${transitionClasses} ${projectExpanded ? expandedClasses : `${collapsedClasses} ${spacingClasses}`}`}>
-          <WannaPlaySomeTunes />
         </div>
       </div>
     </main>

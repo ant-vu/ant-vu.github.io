@@ -26,12 +26,9 @@ function Main() {
                                 </div>
                                 <div className="md:flex md:flex-col md:items-end relative z-30">
                                     <Menu className="md:mr-16 md:mt-8 mb-8 ml-16 text-center relative md:fixed"/>
-                                    <AudioPlayer
-                                        className="hidden md:block md:mt-auto fixed bottom-0 right-0 mb-8 mr-16 overflow-hidden"/>
-
                                     <div
                                         className="fixed overflow-hidden bottom-0 left-0 mb-8 ml-6 rotate-180 [writing-mode:vertical-rl]">
-                                        <p className="font-DMMono">folio // 2024</p>
+                                        <p className="font-DMMono">folio // 2025</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +40,7 @@ function Main() {
                 </div>
             </div>
             <video id="video" className='hidden' loop>
-                <source src={process.env.PUBLIC_URL + "/videos/gala.mp4"} type="video/mp4"></source>
+                <source src={process.env.PUBLIC_URL + "TODO"} type="video/mp4"></source>
             </video>
         </div>
     );

@@ -18,20 +18,32 @@ function Projects({sendExpandedStatToParent}) {
     const short_projects = [
         {
             name: 'ant-vu.github.io',
-            description: 'ant-vu.github.io is my latest iteration of a personal portfolio using React, JavaScript, and Tailwind CSS.',
+            description: 'Portfolio (feat. React, JS, Tailwind CSS)',
             link: 'https://github.com/ant-vu/ant-vu.github.io'
         },
         {
             name: 'habits-app',
-            description: 'habits-app-71y.pages.dev is my personal habit tracker app using Vue, TypeScript, Nuxt, Pinia, and Firebase.',
+            description: 'Habit Tracker (feat. Vue, Nuxt, Pinia, TS, Firebase)',
             link: 'https://github.com/ant-vu/habits-app',
             more: 'https://habits-app-71y.pages.dev'
         },
         {
+            name: 'robot-animation',
+            description: 'Robot Animation (feat. React Three Fiber, Next.js, TS)',
+            link: 'https://github.com/ant-vu/robot-animation',
+            more: 'https://ant-vu.github.io/robot-animation'
+        },
+        {
             name: 'color-link',
-            description: 'ant-vu.github.io/color-link is a memorization game based on University War Season 2 using JavaScript.',
+            description: 'Color Link (feat. JS, CSS, HTML)',
             link: 'https://github.com/ant-vu/color-link',
             more: 'https://ant-vu.github.io/color-link'
+        },
+        {
+            name: 'blind-connect-five',
+            description: 'Blind Connect Five (feat. JS, CSS, HTML)',
+            link: 'https://github.com/ant-vu/blind-connect-five',
+            more: 'https://ant-vu.github.io/blind-connect-five'
         }
     ];
 
@@ -39,7 +51,7 @@ function Projects({sendExpandedStatToParent}) {
 
     const boldWord = (text) => {
         const words = text.split(' ');
-        const boldWords = [''];
+        const boldWords = ['Tracker', 'Animation', 'Link', 'Connect', 'Five'];
         const italicWords = [''];
         return (
             <>
@@ -94,7 +106,7 @@ function Projects({sendExpandedStatToParent}) {
                                             className="absolute top-0 right-0 w-full h-full bg-da_green rounded-md translate-x-full ease-out duration-200 transition-all group-hover:translate-x-0"></span>
                                         <span
                                             className="relative flex items-center justify-center text-black transition-colors duration-300 ease-in-out">
-                      More
+                      Live
                       <div className="flex justify-end ml-3">
                         <img src={process.env.PUBLIC_URL + "/icons/arrow-right.svg"} alt="^"
                              className="w-4 h-4 bg-da_green border-da_green border-4"/>

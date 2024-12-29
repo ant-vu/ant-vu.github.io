@@ -11,66 +11,38 @@ export function WorkProvider({children}) {
      */
     const jobs = [
         {
-            title: 'Software Developer',
+            title: 'Software Engineer',
             company: 'Citigroup',
             period: '2024/~',
-            description: 'Engineered a full-stack investment management service with React, JavaScript, Bulma, HTML, MySQL, Java, Spring Boot, Docker, Git, and Alpha Vantage API, enabling users to manage diverse portfolios, including REITs, ETFs, and stocks.',
-            skills: 'Architected testing suites and CI/CD pipelines for Scala, Python, Spark, and Hadoop using ScalaTest, Mockito, pytest, unittest, Jenkins, and SonarQube, enhancing code coverage from 0 to 95% across four repositories (~35,000 lines of code).'
+            description: 'Architected testing suites and CI/CD pipelines for Scala, Python, Spark, and Hadoop using ScalaTest, Mockito, Pytest, Jenkins, OpenShift, and SonarQube Server, enhancing coverage from 0 to 95% for 37,000 lines of code across 4 repositories.',
+            skills: 'Engineered a full-stack investment management service with React, TypeScript, Mantine, Vite, HTML, MySQL, Spring Boot, Java, Docker, Git, and Alpha Vantage API, currently undergoing internal trials in North America, set for a release in Q1 2025.'
         },
         {
-            title: 'Product Manager',
-            company: 'ELO',
-            period: '2024',
-            description: 'Prepared for a product launch in August by conducting interviews and designing Figma mockups for a gaming controller app.',
-            skills: ''
-        },
-        {
-            title: 'Software Developer Intern',
+            title: 'Software Engineer Intern',
             company: 'Citigroup',
             period: '2023',
-            description: 'Programmed the UI/UX for a Depth Liquidity Adjustments grid with Angular, NgRx, RxJS, TypeScript, Sass, and MySQL, and integrated Playwright for end-to-end testing, eliminating the need for a TestComplete license (saving ~$5000/year).',
-            skills: 'Collaborated across teams and traders from New York, London, and Shanghai to diagnose critical issues within our Electron application and explored urbanization’s correlation to GDP using Python and pandas, culminating in a Tableau dashboard.'
+            description: 'Implemented the UI/UX for a Depth Liquidity Adjustments grid using Angular, RxJS, NgRx, TypeScript, AG Grid, Sass, HTML, XML, JSON, and Git, integrating Playwright for end-to-end testing to replace TestComplete, saving $5000 annually.',
+            skills: 'Resolved 14 production issues in an Electron app through collaboration with traders from New York, London, Shanghai, and Tokyo, tripling the number of views that can be opened and saved, positively impacting tens of thousands of daily users.'
         },
         {
-            title: 'Software Developer Intern',
+            title: 'Software Engineer Intern',
             company: 'BDO',
             period: '2022',
-            description: 'Implemented resource hierarchies, filters, and notifications with Angular, TypeScript, CSS, MySQL, ASP.NET Core, Entity Framework Core, C#, and Node.js, and managed Docker containers for Prometheus, Kibana, RabbitMQ, and Redis.',
-            skills: 'Streamlined Jenkins and SonarQube into our DevOps workflow, uncovering 15+ bugs and 600+ code smells, and led the code refinement initiative, eliminating all bugs and security hotspots and reducing code smells and duplications by 65%.'
+            description: 'Developed resource hierarchies, filters, and notifications for human capital management with Angular, TypeScript, PrimeNG, CSS, HTML, ABP Platform, ASP.NET Core, Entity Framework Core, and C#, optimized to load twice as fast as Workday.',
+            skills: 'Streamlined Jenkins and SonarQube Server into our DevOps workflow, uncovering 17 bugs and 600+ code smells, and led the refinement process, eliminating all bugs and security hotspots and reducing code smells by 68% and duplications by 93%.'
         },
         {
-            title: 'Project Manager',
-            company: 'CollegePro',
-            period: '2021',
-            description: 'Pioneered an enterprise-wide route optimization platform that leveraged geospatial analytics and machine learning algorithms.',
-            skills: ''
-        },
-        {
-            title: 'Research Assistant (SWE)',
+            title: 'Research Assistant',
             company: 'McMaster',
             period: '2021',
-            description: 'Developed a full-stack Android application that captures built-in sensor data, such as illuminance, azimuth, pitch, and roll, using Kotlin, SQLite, and Jetpack for visible light communication at the Free-Space Optical Communication Algorithms Lab.',
+            description: 'Built a full-stack Android application, capturing built-in sensor data like illuminance, azimuth, pitch, and roll, using Kotlin, SQLite, and Jetpack, initiating visible light communication research for 2 PhD fellows at the Communication Algorithms Lab.',
             skills: ''
         },
         {
-            title: 'Software Developer Intern',
+            title: 'Software Engineer Intern',
             company: 'Llettonna',
             period: '2020',
-            description: 'Created a REST API with Java, MySQL, and Postman, resolved 5+ bugs from a front-end codebase containing React, Redux, MUI, JavaScript, and Tailwind CSS, and researched potential migration paths to PostgreSQL, MongoDB, and AWS.',
-            skills: ''
-        },
-        {
-            title: 'Software Developer',
-            company: 'Memofood',
-            period: '2019/2020',
-            description: 'Won the Best Overall Project award at Western University for coding a food-tracking app using Bootstrap and PostgreSQL.',
-            skills: ''
-        },
-        {
-            title: 'Head Altar Server',
-            company: 'St. Pat’s',
-            period: '2010/~',
-            description: 'Earned the Serra International Bishop’s Altar Server medallion and invited Prime Minister Trudeau to serve 550+ meals/day.',
+            description: 'Created a REST API with Java, MySQL, and Postman, documented migrations to MongoDB and Amazon Web Services, and fixed 11 bugs from a front-end codebase containing React, Redux, MUI, and Tailwind CSS, reducing help tickets by 49%.',
             skills: ''
         }
     ];
