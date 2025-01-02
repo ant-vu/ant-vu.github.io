@@ -18,12 +18,12 @@ function Projects({sendExpandedStatToParent}) {
     const short_projects = [
         {
             name: 'ant-vu.github.io',
-            description: 'Portfolio (feat. React, JS, Tailwind CSS)',
+            description: 'Portfolio (feat. React, Three.js, JS, Tailwind CSS)',
             link: 'https://github.com/ant-vu/ant-vu.github.io'
         },
         {
             name: 'habits-app',
-            description: 'Habit Tracker (feat. Vue, Nuxt, Pinia, TS, Firebase)',
+            description: 'Habit Tracker (feat. Vue, Nuxt, Pinia, JS, Firebase)',
             link: 'https://github.com/ant-vu/habits-app',
             more: 'https://habits-app-71y.pages.dev'
         },
@@ -34,16 +34,16 @@ function Projects({sendExpandedStatToParent}) {
             more: 'https://ant-vu.github.io/robot-animation'
         },
         {
-            name: 'color-link',
-            description: 'Color Link (feat. JS, CSS, HTML)',
-            link: 'https://github.com/ant-vu/color-link',
-            more: 'https://ant-vu.github.io/color-link'
-        },
-        {
             name: 'blind-connect-five',
             description: 'Blind Connect Five (feat. JS, CSS, HTML)',
             link: 'https://github.com/ant-vu/blind-connect-five',
             more: 'https://ant-vu.github.io/blind-connect-five'
+        },
+        {
+            name: 'color-link',
+            description: 'Color Link (feat. JS, CSS, HTML)',
+            link: 'https://github.com/ant-vu/color-link',
+            more: 'https://ant-vu.github.io/color-link'
         }
     ];
 
