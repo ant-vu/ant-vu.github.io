@@ -41,7 +41,7 @@ function Header() {
                     <img src={process.env.PUBLIC_URL + "/gifs/dance.gif"} alt="Dance GIF"
                          className="w-32 h-32 self-center"/>
                     <p className="mt-4 font-Inter font-normal">
-                        I am a full-time SWE at Citi and graduated from Mac’s CS program with a 3.97/4 GPA.
+                        I am a full-time Software Engineer at Citi and graduated from McMaster’s CS program with a 3.97/4 GPA.
                     </p>
                     <p className="mt-4 font-Inter font-normal">
                         With 3 years of experience across 7 firms, I possess a unique blend of technical expertise and passion for taking on any challenge.

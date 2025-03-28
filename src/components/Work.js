@@ -9,7 +9,7 @@ import Collapsible from "./Collapsible";
 function Work() {
     return (
         <div className="work space-y-2">
-            <h2 className='font-DMMono font-medium'>| Experience</h2>
+            <h2 className='font-DMMono font-medium'>| Work Experience</h2>
             <WorkProvider>
                 <Collapsible/>
             </WorkProvider>

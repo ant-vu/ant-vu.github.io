@@ -41,25 +41,17 @@ const Collapsible = () => {
         <div>
             {jobs.map((job, index) => (
                 <div key={index}>
-                    <button
-                        onClick={() => toggle(index)}
-                        className={`relative overflow-hidden transition-all w-full block ${openStates[index] ? 'bg-da_green' : 'bg-transparent'} hover:bg-da_green group rounded`}
+                    <span
+                        className={`relative overflow-hidden transition-all w-full block bg-transparent}`}
                     >
                         <span
                             className="absolute top-0 right-0 w-full h-full bg-da_green rounded translate-x-full ease-out duration-400 transition-all group-hover:translate-x-0"></span>
                         <div className="relative grid grid-cols-10 items-center text-sm p-1 border-b-2">
                             <h2 className="col-span-5 text-black transition-colors duration-400 ease-in-out flex justify-start ">{job.title}</h2>
-                            <h2 className="col-span-2 text-black transition-colors duration-400 ease-in-out font-DMMono">{job.company}</h2>
-                            <h2 className="col-span-2 text-black transition-colors duration-400 ease-in-out text-xs font-DMMono">{job.period}</h2>
-                            <div className="col-span-1 flex justify-end">
-                                <img
-                                    src={openStates[index] ? process.env.PUBLIC_URL + "/icons/minus.svg" : process.env.PUBLIC_URL + "/icons/plus.svg"}
-                                    alt={openStates[index] ? "-" : "+"}
-                                    className="w-4 h-4"
-                                />
-                            </div>
+                            <h2 className="col-span-3 text-black transition-colors duration-400 ease-in-out font-DMMono">{job.company}</h2>
+                            <h2 className="col-span-1 text-black transition-colors duration-400 ease-in-out text-xs font-DMMono">{job.period}</h2>
                         </div>
-                    </button>
+                    </span>
 
                     <div
                         ref={contentRefs.current[index]}
