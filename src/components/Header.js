@@ -34,7 +34,7 @@ function Header() {
         <header className="">
             <Confetti active={isExploding} config={config}/>
             <h1 className="font-Outfit text-5xl font-bold">Anthony Vu</h1>
-            <p className="font-DMMono font-normal mt-6"><span className="bg-da_green">Welcome</span> to my portfolio! :)</p>
+            <p className="font-DMMono font-normal mt-6"><span className="bg-da_green">Welcome</span> to my portfolio! (:</p>
             <div
                 className={`transition-all duration-500 ${showMore ? 'max-h-[1000px]' : 'max-h-0'} overflow-hidden ${showMore ? '' : 'm-0'}`}>
                 <div className="border-2 border-dashed border-da_green rounded-md mt-4 p-2">
@@ -44,7 +44,7 @@ function Header() {
                         I am a full-time Software Engineer at Citi and graduated from McMaster’s CS program with a 3.97/4 GPA.
                     </p>
                     <p className="mt-4 font-Inter font-normal">
-                        With 3 years of experience across 7 firms, I possess a unique blend of technical expertise and passion for taking on any challenge.
+                        With three years of experience across seven firms, I possess a unique blend of technical expertise and passion for taking on any challenge.
                     </p>
                 </div>
             </div>

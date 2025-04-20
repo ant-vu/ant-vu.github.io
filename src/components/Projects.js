@@ -22,12 +22,6 @@ function Projects({sendExpandedStatToParent}) {
             link: 'https://github.com/ant-vu/ant-vu.github.io'
         },
         {
-            name: 'habits-app',
-            description: 'Habit Tracker (feat. Vue, Nuxt, Pinia, JS, Firebase)',
-            link: 'https://github.com/ant-vu/habits-app',
-            more: 'https://habits-app-71y.pages.dev'
-        },
-        {
             name: 'robot-animation',
             description: 'Robot Animation (feat. React Three Fiber, Next.js, TS)',
             link: 'https://github.com/ant-vu/robot-animation',
@@ -44,6 +38,12 @@ function Projects({sendExpandedStatToParent}) {
             description: 'Color Link (feat. JS, CSS, HTML)',
             link: 'https://github.com/ant-vu/color-link',
             more: 'https://ant-vu.github.io/color-link'
+        },
+        {
+            name: 'habits-app',
+            description: 'Habit Tracker (feat. Vue, Nuxt, Pinia, JS, Firebase)',
+            link: 'https://github.com/ant-vu/habits-app',
+            more: 'https://habits-app-71y.pages.dev'
         }
     ];
 

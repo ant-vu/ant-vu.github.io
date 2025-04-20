@@ -29,9 +29,9 @@ function Portfolio({ className }) {
         <div className='md:mb-8 mb-16'>
           <Projects sendExpandedStatToParent={handleProjectExpand} />
         </div>
-        <div className={`${transitionClasses} ${projectExpanded ? expandedClasses : `${collapsedClasses} ${spacingClasses}`}`}>
-          <Skills />
-        </div>
+        {/*<div className={`${transitionClasses} ${projectExpanded ? expandedClasses : `${collapsedClasses} ${spacingClasses}`}`}>*/}
+        {/*  <Skills />*/}
+        {/*</div>*/}
       </div>
     </main>
   );
