@@ -46,7 +46,7 @@ export function WorkProvider({children}) {
             skills: ''
         },
         {
-            title: 'Research Assistant',
+            title: 'ML Research Assistant',
             company: 'McMaster',
             period: '2021',
             description: '',
