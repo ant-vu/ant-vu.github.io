@@ -11,7 +11,7 @@ export function WorkProvider({children}) {
      */
     const jobs = [
         {
-            title: 'Software Engineer',
+            title: 'Software Engineer II',
             company: 'Citi',
             period: '2024/~',
             description: '',

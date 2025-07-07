@@ -17,6 +17,16 @@ function Projects({sendExpandedStatToParent}) {
 
     const short_projects = [
         {
+            name: 'chestlens-ai',
+            description: 'ChestLens AI (feat. PyTorch, TorchXRayVision, MIMIC)',
+            link: 'https://github.com/ant-vu/chestlens-ai'
+        },
+        {
+            name: 'report2me',
+            description: 'Report2Me (feat. React, Axios, FastAPI, Pydantic, SQLite)',
+            link: 'https://github.com/ant-vu/report2me'
+        },
+        {
             name: 'ant-vu.github.io',
             description: 'Portfolio (feat. React, Three.js, JS, Tailwind CSS)',
             link: 'https://github.com/ant-vu/ant-vu.github.io'
@@ -51,7 +61,7 @@ function Projects({sendExpandedStatToParent}) {
 
     const boldWord = (text) => {
         const words = text.split(' ');
-        const boldWords = ['Tracker', 'Animation', 'Link', 'Connect', 'Five'];
+        const boldWords = ['Tracker', 'Animation', 'Link', 'Connect', 'Five', 'AI'];
         const italicWords = [''];
         return (
             <>

@@ -41,10 +41,10 @@ function Header() {
                     <img src={process.env.PUBLIC_URL + "/gifs/dance.gif"} alt="Dance GIF"
                          className="w-32 h-32 self-center"/>
                     <p className="mt-4 font-Inter font-normal">
-                        I am a full-time Software Engineer at Citi and graduated from McMaster’s CS program with a 3.97/4 GPA.
+                        Since being designated a Schulich Leader and receiving a full-ride scholarship to McMaster University's Honours Computer Science Co-op program in 2020, I have gained four years of relevant professional experience across seven firms and currently work full-time as a Software Engineer II at Citi.
                     </p>
                     <p className="mt-4 font-Inter font-normal">
-                        With three years of experience across seven firms, I possess a unique blend of technical expertise and passion for taking on any challenge.
+                        My manager always jokes that I am in an endless pursuit of excellence, and I can see why.
                     </p>
                 </div>
             </div>
