@@ -13,7 +13,14 @@ export function WorkProvider({children}) {
         {
             title: 'Software Engineer II',
             company: 'Citi',
-            period: '2024/~',
+            period: '2025/~',
+            description: '',
+            skills: ''
+        },
+        {
+            title: 'Software Engineer I',
+            company: 'Citi',
+            period: '2024/2025',
             description: '',
             skills: ''
         },
