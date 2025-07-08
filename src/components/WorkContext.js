@@ -20,7 +20,7 @@ export function WorkProvider({children}) {
         {
             title: 'Software Engineer I',
             company: 'Citi',
-            period: '2024/2025',
+            period: '2024/25',
             description: '',
             skills: ''
         },
